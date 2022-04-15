@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+*{
+    margin: 0% 0%;
+    padding: 0% 0%;
+}
+
+.topFlex{
+height: 30vh;
+background-image: linear-gradient(to right, #120E43 , #2827CC);
+}
+
+.topHeading{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#medicineTab{
+    border: none;
+}
+
+#Diagnosis{
+    width: 150px;
+    border-bottom: 3px solid #222831;
+   padding-left: 20%;
+}
+#Diagnosis:hover{
+    border: none;
+}
+
+.patientDetails{
+    margin-top: 5%;
+    margin-left: 12%;
+}
+.patientName{
+    font-size: 1.5vw;
+    margin-top: 3%;
+    color: #112031;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.disease{
+    font-size: 1.5vw;
+    margin-top: 1.5%;
+    color: #112031;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif; 
+}
+#user-icon{
+    margin-left: 2%;
+    height: 85px;
+    width: 85px;
+    background-color: #fff;
+    color: #fff;
+    border-radius: 50%;
+}
+.prescription_navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-right: 17%;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 3%;
+    
+}
+
+.nav_items{
+ display: flex;
+ flex-direction: row; 
+   font-size: 1rem;
+   color: #112031;
+   font-weight: 600;
+     
+}
+.nav_items{
+    transition: 0.3s;
+    
+}
+.nav_items:hover{
+    transform: translate(0, -10px);
+}
+
+.nav_Links{
+    text-decoration: none;
+    
+}
+
+.nav_Line{
+   
+    width: 1150px;
+    margin-left: 6.5%;
+
+   
+}
+
+#medicineTab{
+    width: 180px;
+    border-bottom: 3px solid #222831;
+   padding-left: 25%;
+}
+#medicineTab:hover{
+    border-bottom: none;
+}
+.nav_Line{
+   
+    width: 1150px;
+    margin-left: 6.5%;
+
+   
+}
+.formGroup{
+    height: 30vw;
+}
+#exampleFormControlTextarea2{
+    height: 3vw;
+    width: 60vw;
+    margin-left: 18%;
+    border: 1px solid #112031;
+    margin-top: 2%;
+    outline: none;
+}
+#exampleFormControlTextarea1{
+    height: 8vw;
+    width: 60vw;
+    margin-left: 18%;
+    border: 1px solid #112031;
+    margin-top: 3%;
+    outline: none;
+}
+
+.TitleLabel{
+    margin-left: 12%;
+    font-size: 2vw;
+    
+
+}
+
+
+.warning {
+    border-color: #1f1f11;
+    color: white;
+    transition: all 0.7s;
+  }
+  .complaintArea{
+    margin-left: 18%;
+    margin-top: 1%;
+}
+  
+  .warning:hover {
+    background: #1f1f1f;
+    color: white;
+  }
+  .warning{
+   margin-left: 43%;
+   margin-top: 3%;
+   
+}
+.btn {
+    border: 1px solid  #1f1f1f;
+    background-color: white;
+    color: black;
+    padding: 10px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+::placeholder{
+    font-size: 1vw;
+    margin-left: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-left: 1%;
+}
+
+
+
+
+
+@media screen and (max-width: 750px) {
+    #medicineTab{
+        width: 80px;
+        border-bottom: 3px solid #222831;
+       padding-left: 20%;
+    }
+    
+    .nav_Links{
+        margin-right: 2%;
+        
+        margin-left: 3%;
+        
+        
+          
+          font-family: 'Montserrat', sans-serif;
+          
+          
+      }
+  .nav_items{
+      font-size: 3vw;
+      
+  }
+    .prescription_navbar{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15%;
+       padding-right: 9%;
+       padding-left: 3%;
+       }
+      
+   .nav_Line{
+width: 300px;
+
+   }
+   .btn{
+    margin-left: 40%;
+    margin-top: 5%;
+    width: 22%;
+ }
+ .patientName{
+    font-size: 3vw;
+   
+}
+#user-icon{
+    margin-left: 0%;
+}
+#Diagnosis{
+    width: 100px;
+    border-bottom: 3px solid #222831;
+   padding-left: 20%;
+}
+}

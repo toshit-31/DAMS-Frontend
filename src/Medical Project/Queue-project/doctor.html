@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+
+    <div class="jumbotron text-center" id="jumbo">
+        <h1>Patient Queue</h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12" id="doc-div">
+                <img src="doctor-icon.png" alt="avtar" id="doc-icon" height="100px" width="100px">
+                <h2>Good morning,</h2>
+                <span class="doc-name">Dr. Starc</span>
+                <p id="msg">You have the following upcoming visits today</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4" id="card-margin">
+                <div class="card" style="width: 18rem;">
+                    <img src="user-icon.png" id="user-icon" height="60px" width="60px">
+                    <div class="card-body">
+
+                        <h5 class="card-title">David</h5>
+                        <p class="card-text">Queue no. A1</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4" id="card-margin">
+                <div class="card" style="width: 18rem;">
+                    <img src="user-icon.png" id="user-icon" height="60px" width="60px">
+                    <div class="card-body">
+                        <h5 class="card-title">Smith</h5>
+                        <p class="card-text">Queue no. A2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4" id="card-margin">
+                <div class="card" style="width: 18rem;">
+                    <img src="user-icon.png" id="user-icon" height="60px" width="60">
+                    <div class="card-body">
+                        <h5 class="card-title">Alex</h5>
+                        <p class="card-text">Queue no. A3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </div>
+
+</body>
+
+</html>

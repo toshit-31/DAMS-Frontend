@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta meta name="viewport" content= "width=device-width, user-scalable=no" />  
+  <title>Inventory</title>
+  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <script src="https://kit.fontawesome.com/01d0e49f57.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="navbar.css">
+
+</head>
+<body>
+  
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="navbarClose">&times;</a>
+  <div id="userDetailSection">
+  <img src="../order/Images/male_boy_person_people_avatar_icon_159358.png" id="user-icon">
+  <p class="pharmacyDetails">Getwell Medicals</p>
+  <p  id="userNumber">+917389567896</p>
+  
+  </div>
+  <!-- <hr class="bottomLineNav"> -->
+  
+  <div id="quotesConfirm">
+  <i class="fas fa-sticky-note icons" ></i><a href="OpenOuote.html">Open to Quote</a>
+  
+ 
+  </div>
+  <div id="quotesConfirm">
+    <i class="fas fa-notes-medical icons" ></i><a href="QuoteConfirm.html">Quotes Confirmed</a>
+  </div>
+  <div id="quotesConfirm">
+    <i class="fas fa-clipboard icons" ></i><a href="QuoteCompleted.html">Quotes Completed</a>
+  </div>
+  <div id="quotesConfirm">
+    <i class="fas fa-dolly-flatbed icons" ></i><a href="Inventory.html">Inventory</a>
+  </div>
+  <div id="quotesConfirm">
+    
+    
+    <i class="fas fa-check-square icons" ></i><a href="Quoted.html">Quoted</a>
+  </div>
+</div>
+
+</div>
+
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()" id="sideNavebar">&#9776;</span>
+<header id="HeadTop">
+<h1 class="topHeading">Inventory</h1>
+<button class="mdc-button btn mdc-button--raised" id="Topbtn">
+  <span class="mdc-button__label">Add to stock</span>
+</button>
+</header>
+
+<div class="prescription_Table">
+  
+  <table id="table">
+    <thead>
+      <tr class="red">
+        <th>Medicine Name</th>
+        <th>In Stock</th>
+        <th>Rate</th>
+        <th>Quantity</th>
+      <th></th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="rowOdd">
+        <td><p class="tableData">Colpol</p></td>
+        <td><p  class="tableData">30</p></td>
+        
+      <td><p  class="tableData">80</p></td>  
+        <td><p  class="tableData">200</p></td>
+        <td><button class="mdc-button btn mdc-button--raised" id="btn">
+          <span class="mdc-button__label">Update stock</span>
+        </button></td>
+        
+      </tr>
+      <tr>
+        <td><p class="tableData">Pracetamol</p></td>
+        <td><p  class="tableData">80</p></td>
+        
+      <td><p  class="tableData">120</p></td>  
+        <td><p  class="tableData">700</p></td>
+        
+        <td><button class="mdc-button btn mdc-button--raised" id="btn">
+          <span class="mdc-button__label">Update stock</span>
+        </button></td>
+      </tr>
+      <tr class="rowOdd">
+        <td><p class="tableData">Covisheild</p></td>
+        <td><p  class="tableData">20</p></td>
+        
+      <td><p  class="tableData">100</p></td>  
+        <td><p  class="tableData">400</p></td>
+        <td><button class="mdc-button btn mdc-button--raised" id="btn">
+          <span class="mdc-button__label">Update stock</span>
+        </button></td>
+        
+        
+      </tr>
+
+      <tr>
+        <td><p class="tableData">Crocin</p></td>
+        <td><p  class="tableData">30</p></td>
+        
+      <td><p  class="tableData">100</p></td>  
+        <td><p  class="tableData">400</p></td>
+        
+        <td><button class="mdc-button btn mdc-button--raised" id="btn">
+          <span class="mdc-button__label">Update stock</span>
+        </button></td>
+      </tr>
+    
+      
+      <tr class="rowOdd">
+        <td><p class="tableData">Colpol</p></td>
+        <td><p  class="tableData">60</p></td>
+        
+      <td><p  class="tableData">1200</p></td>  
+        <td><p  class="tableData">460</p></td>
+        <td><button class="mdc-button btn mdc-button--raised" id="btn">
+          <span class="mdc-button__label">Update stock</span>
+        </button></td>
+        
+      </tr>
+      <tr >
+        <td><p class="tableData">Pracetamol</p></td>
+        <td><p  class="tableData">70</p></td>
+        
+      <td><p  class="tableData">500</p></td>  
+        <td><p  class="tableData">900</p></td>
+        <td><button class="mdc-button btn mdc-button--raised" id="btn">
+          <span class="mdc-button__label">Update stock</span>
+        </button></td>
+        
+      </tr>
+      <tr class="rowOdd">
+        <td><p class="tableData">Colpol</p></td>
+        <td><p  class="tableData">30</p></td>
+        
+      <td><p  class="tableData">100</p></td>  
+        <td><p  class="tableData">400</p></td>
+        <td><button class="mdc-button btn mdc-button--raised" id="btn">
+          <span class="mdc-button__label">Update stock</span>
+        </button></td>
+        
+      </tr>
+      <tr >
+        <td><p class="tableData">Pracetamol</p></td>
+        <td><p  class="tableData">30</p></td>
+        
+      <td><p  class="tableData">100</p></td>  
+        <td><p  class="tableData">400</p></td>
+        <td><button class="mdc-button btn mdc-button--raised" id="btn">
+          <span class="mdc-button__label">Update stock</span>
+        </button></td>
+       
+      </tr>
+
+
+      <tr class="rowOdd">
+        <td><p class="tableData">Colpol</p></td>
+        <td><p  class="tableData">30</p></td>
+        
+      <td><p  class="tableData">100</p></td>  
+        <td><p  class="tableData">400</p></td>
+        <td><button class="mdc-button btn mdc-button--raised" id="btn">
+          <span class="mdc-button__label">Update stock</span>
+        </button></td>
+        
+      </tr>
+      
+        
+    </tbody>
+  </table>
+  </div>
+</body>
+<script src="navbar.js"></script>
+</html>

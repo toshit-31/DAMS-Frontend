@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+*{
+    margin: 0% 0%;
+    padding: 0% 0%;
+}
+
+.topFlex{
+height: 30vh;
+background-image: linear-gradient(to right, #120E43 , #2827CC);
+}
+
+.topHeading{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.patientDetails{
+    margin-top: 5%;
+    margin-left: 12%;
+}
+.patientName{
+    font-size: 1.5vw;
+    margin-top: 3%;
+    color: #112031;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.disease{
+    font-size: 1.5vw;
+    margin-top: 1.5%;
+    color: #112031;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif; 
+}
+#user-icon{
+    height: 85px;
+    width: 85px;
+    background-color: #fff;
+    color: #fff;
+    border-radius: 50%;
+}
+.prescription_navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-right: 17%;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 3%;
+    
+}
+
+.nav_items{
+ display: flex;
+ flex-direction: row; 
+   font-size: 1rem;
+   color: #112031;
+   font-weight: 600;
+     
+}
+.nav_items{
+    transition: 0.3s;
+    
+}
+.nav_items:hover{
+    transform: translate(0, -10px);
+}
+
+.nav_Links{
+    text-decoration: none;
+    
+}
+
+.nav_Line{
+   
+    width: 1150px;
+    margin-left: 6.5%;
+
+   
+}
+
+.prescription_Table{
+    width: 70%;
+margin-left: 13%;
+height: 30vw;
+margin-top: 3%;
+
+
+}
+#medicineTab{
+    width: 150px;
+    border-bottom: 3px solid #222831;
+   padding-left: 33%;
+}
+#medicineTab:hover{
+    border-bottom: none;
+}
+
+table {
+    text-align: center;
+    
+    border-collapse: collapse; 
+    
+  }
+  th, td {
+    
+    padding: 1rem;
+    border: 2px solid #EEEEEE;
+  width: 40vh;
+  }
+  .prescription_Table{
+      border-bottom: 20%;
+      font-family:  sans-serif;
+      font-weight: 200;
+      font-size: 2rem;
+    
+  }
+  
+  .textBoxes{
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border: none;
+    
+  }
+  tr.red th {
+    background: #1f1f1f;
+    color: white;
+    
+  }
+  thead{
+    font-size: 1rem;
+    font-weight: 300;
+    height: 5px;
+  }
+  
+  th {
+    background: white;
+     position: sticky; 
+    top: 0; /* Don't forget this, required for the stickiness */
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+  }
+  
+  #table{
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 20%;
+   
+  }
+  
+.textBoxes{
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border: none;
+    
+}
+
+
+
+
+@media screen and (max-width: 750px) {
+    .prescription_Table{
+        margin-left: 12%;
+    overflow:scroll;
+    
+    }
+.table_Top_Heading{
+    font-size: 2vw;
+}
+#medicineTab{
+    width: 100px;
+    border-bottom: 3px solid #222831;
+   padding-left: 20%;
+}
+
+#leftitem{
+    margin-left: 8%;
+}
+
+.nav_Links{
+    margin-right: 1%;
+    
+    margin-left: 6%;
+    
+    
+    
+      
+      font-family: 'Montserrat', sans-serif;
+      
+      
+  }
+  .nav_items{
+      font-size: 3vw;
+      
+  }
+  .prescription_navbar{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 15%;
+     padding-right: 9%;
+     padding-left: 3%;
+     }
+   .nav_Line{
+width: 300px;
+
+   }
+   .patientName{
+    font-size: 3vw;
+    margin-top: 3%;
+    color: #112031;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+#user-icon{
+    margin-left: 0%;
+}
+#medicineTab{
+    width: 60px;
+    border-bottom: 3px solid #222831;
+   padding-left: 20%;
+}
+}

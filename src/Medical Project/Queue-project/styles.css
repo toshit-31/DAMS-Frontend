@@ -1,0 +1,163 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    .dot {
+        height: 100px;
+        width: 100px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        margin-top: 20px;
+    }
+    
+    #your-no {
+        margin-top: 25px;
+        font-size: 40px;
+    }
+    
+    .box {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    #current-no {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    
+    #current-txt {
+        font-size: 20px;
+    }
+    
+    .btn {
+        margin-top: 30px;
+    }
+    
+    .btn button {
+        background-color: #ff6699;
+        color: white;
+        width: 200px;
+        height: 40px;
+        border: 0;
+        border-radius: 8px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    .btn button:hover {
+        background-color: #ff99bb;
+        color: white;
+        width: 205px;
+        transition: all 0.2s;
+    }
+    /*form styels gose here*/
+    
+    #msg-txt {
+        line-height: 1.5;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 50px;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    form input {
+        width: 250px;
+        height: 40px;
+        font-size: 20px;
+        font-style: inherit;
+        border: 0;
+        outline: 0;
+        background: transparent;
+        border: 2px solid #96B0BC;
+        border-radius: 12px;
+        line-height: 1.5;
+        font-family: 'Poppins', sans-serif;
+        text-transform: capitalize;
+        padding-left: 10px;
+    }
+    
+    .anmi-shadow {
+        box-shadow: 0 5px 10px #efefef;
+        border-radius: 6px;
+    }
+    
+    form button {
+        background-color: #001a33;
+        color: white;
+        width: 150px;
+        height: 40px;
+        border: 0;
+        border-radius: 8px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    form button:hover {
+        background-color: #00264d;
+        color: white;
+        width: 155px;
+        transition: all 0.2s;
+    }
+    /* patient queue style*/
+    
+    #jumbo {
+        background-color: #0D47A1;
+        color: white;
+        line-height: 1.5;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    #doc-icon {
+        border-radius: 50%;
+        margin: 25px 0 20px 30px;
+    }
+    
+    #doc-div {
+        margin-bottom: 50px;
+        line-height: 1.5;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    #card-margin {
+        margin-bottom: 20px;
+        padding-left: 15px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    #user-icon {
+        border-radius: 50%;
+        margin: 5px 0 0 5px;
+    }
+    
+    .doc-name {
+        font-size: x-large;
+        font-weight: 500;
+    }
+    
+    #msg {
+        margin-top: 15px;
+        font-weight: lighter;
+    }
+    /* Patient style*/
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: -webkit-sticky;
+        /* Safari */
+        position: sticky;
+        top: 0;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        padding-left: 0px;
+        padding-right: 10px;
+    }
