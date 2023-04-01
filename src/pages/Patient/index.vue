@@ -335,7 +335,33 @@ export default {
             })
             // self.doctorsFiltered = res.doctors;
             // self.activePrescription = res.doctors[0].patients[0].prescriptions[0];
-            self.activePrescription = self.prescriptions[0]
+            const dummyPrescription = {
+            "presId": "-",
+            "specialization": "-",
+            "doctor": {
+                "docId": "-",
+                "fullName": "-",
+                "specialization": "-"
+            },
+            "diagnosis": {
+                "title": "-",
+                "comment": "-"
+            },
+            "date": "-",
+            "medicine": [
+                {
+                    "name": "-",
+                    "mor": -,
+                    "aft": -,
+                    "evn": -,
+                    "days": -
+                }
+            ],
+            "test": [],
+            "complain": "-",
+            "history": "-"
+        }
+            self.activePrescription = dummyPrescription
           }
         },
         400: (res)=>{
