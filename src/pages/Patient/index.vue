@@ -347,16 +347,8 @@ export default {
                 "title": "-",
                 "comment": "-"
             },
-            "date": "-",
-            "medicine": [
-                {
-                    "name": "-",
-                    "mor": 0,
-                    "aft": 0,
-                    "evn": 0,
-                    "days": 0
-                }
-            ],
+            "date": "2023-01-01T00:00:00.000Z",
+            "medicine": [],
             "test": [],
             "complain": "-",
             "history": "-"
