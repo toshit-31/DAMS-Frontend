@@ -115,7 +115,7 @@
           </v-col>
         </v-row>
       </v-container>
-      <v-dialog v-model="presDialog" fullscreen>
+      <v-dialog v-if="!!activePrescription" v-model="presDialog" fullscreen>
         <v-sheet width="100%" height="100%">
           <v-toolbar style="background:linear-gradient(to bottom, #e3deec, #e0eaee)">
             <v-btn fab text small class="mr-5" @click="presDialog=false"><v-icon>clear</v-icon></v-btn>
