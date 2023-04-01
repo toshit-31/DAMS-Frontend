@@ -351,10 +351,10 @@ export default {
             "medicine": [
                 {
                     "name": "-",
-                    "mor": -,
-                    "aft": -,
-                    "evn": -,
-                    "days": -
+                    "mor": 0,
+                    "aft": 0,
+                    "evn": 0,
+                    "days": 0
                 }
             ],
             "test": [],
