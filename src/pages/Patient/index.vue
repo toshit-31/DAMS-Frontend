@@ -115,7 +115,7 @@
           </v-col>
         </v-row>
       </v-container>
-      <v-dialog v-if="!!activePrescription" v-model="presDialog" fullscreen>
+      <v-dialog v-if="!!activePrescription.presId" v-model="presDialog" fullscreen>
         <v-sheet width="100%" height="100%">
           <v-toolbar style="background:linear-gradient(to bottom, #e3deec, #e0eaee)">
             <v-btn fab text small class="mr-5" @click="presDialog=false"><v-icon>clear</v-icon></v-btn>
@@ -211,7 +211,7 @@
           </v-container>
         </v-sheet>
       </v-dialog>
-      <v-dialog v-model="openForQuoteDialog" width="80%" persistent>
+      <!-- <v-dialog v-model="openForQuoteDialog" width="80%" persistent>
         <v-sheet class="pa-2">
           <v-container>
             <v-row>
@@ -261,7 +261,7 @@
             </v-row>
           </v-container>
         </v-sheet>
-      </v-dialog>
+      </v-dialog> -->
     </v-main>
   </v-app>
 </template>
@@ -336,23 +336,23 @@ export default {
             // self.doctorsFiltered = res.doctors;
             // self.activePrescription = res.doctors[0].patients[0].prescriptions[0];
             const dummyPrescription = {
-            "presId": "-",
-            "specialization": "-",
-            "doctor": {
-                "docId": "-",
-                "fullName": "-",
-                "specialization": "-"
-            },
-            "diagnosis": {
-                "title": "-",
-                "comment": "-"
-            },
-            "date": "2023-01-01T00:00:00.000Z",
-            "medicine": [],
-            "test": [],
-            "complain": "-",
-            "history": "-"
-        }
+              "presId": "",
+              "specialization": "-",
+              "doctor": {
+                  "docId": "-",
+                  "fullName": "-",
+                  "specialization": "-"
+              },
+              "diagnosis": {
+                  "title": "-",
+                  "comment": "-"
+              },
+              "date": "2023-01-01T00:00:00.000Z",
+              "medicine": [],
+              "test": [],
+              "complain": "-",
+              "history": "-"
+            }
             self.activePrescription = dummyPrescription
           }
         },
