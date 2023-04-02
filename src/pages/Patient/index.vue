@@ -312,14 +312,14 @@ export default {
       let baseURL = this.ORIGIN+"patient/prescriptions";
       let q = "";
       if(this.doctorSpecFilter != "all") q += "&specialization="+this.doctorSpecFilter;
-      if(!!this.dateFilter.max && !!this.dateFilter.min) q += "&date_max="+new Date(this.dateFilter.max).toISOString()+"&date_min="+new Date(this.dateFilter.min).toISOString();
+      // if(!!this.dateFilter.max && !!this.dateFilter.min) q += "&date_max="+new Date(this.dateFilter.max).toISOString()+"&date_min="+new Date(this.dateFilter.min).toISOString();
       let req = new this.XHR("GET", baseURL+(!!q ? "?"+q.substr(1) : ""), {
         "Authorization": window.localStorage.token
       })
       req.onresponse({
         200: (res)=>{
           console.log(res);
-          if(res.prescriptions){
+          if(res.prescriptions.length){
             self.prescriptions = res.prescriptions;
             self.activePrescription = res.prescriptions[0];
             self.doctorsFiltered = [];
